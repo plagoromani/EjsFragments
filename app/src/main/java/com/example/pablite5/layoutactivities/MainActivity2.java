@@ -8,7 +8,7 @@ import android.view.View;
 /**
  * Created by pablite5 on 15/12/2016.
  */
-
+//clase para llamar al segundo activity
 public class MainActivity2 extends AppCompatActivity {
 
     @Override

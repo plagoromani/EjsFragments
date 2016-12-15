@@ -10,7 +10,7 @@ import android.widget.TextView;
 /**
  * Created by pablite5 on 15/12/2016.
  */
-
+//desde aqui se llama al xml para añadirlo a la jerarquia de vistas
 public class MainActivityFragment2 extends Fragment {
 
     TextView textView;
@@ -21,13 +21,7 @@ public class MainActivityFragment2 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View layFra2=inflater.inflate(R.layout.fragment2_main, container, false);
-       /* if(getResources().getBoolean(R.bool.landScape)) {
-            return layFra2;
-        }
-        else{
-        TextView texto=(TextView) layFra2.findViewById(R.id.textView);
-        String str=getActivity().getIntent().getStringExtra("hola");
-        texto.setText(str);*/
+
         textView=(TextView) layFra2.findViewById(R.id.textView);
         return layFra2;//}
 

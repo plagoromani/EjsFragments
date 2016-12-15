@@ -12,7 +12,7 @@ import android.widget.Button;
 /**
  * Created by pablite5 on 15/12/2016.
  */
-
+//desde aqui se llama al xml para añadirlo a la jerarquia de vistas
 public class MainACtivityFragment extends Fragment {
 
     public MainACtivityFragment() {
@@ -40,7 +40,7 @@ public class MainACtivityFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 if (getResources().getBoolean(R.bool.landScape)) {
-                    // Toast.makeText(getActivity(),"Esto es un LandScape con dos fragments", Toast.LENGTH_LONG).show();
+
                     comunicar.mensaje("Mensaje enviado desde fragment1 landScape");
                 } else {
                     Intent intent = new Intent(getActivity(), MainActivity2.class);
