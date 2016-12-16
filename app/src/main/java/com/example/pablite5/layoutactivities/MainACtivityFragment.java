@@ -30,6 +30,8 @@ public class MainACtivityFragment extends Fragment {
         comunicar = (Comunicar) contexto;
     }
 
+    //creamos un boton para que nos comunicque un mensaje al pulsar
+
 
     @Override
     public View onCreateView(final LayoutInflater inflater, ViewGroup container,

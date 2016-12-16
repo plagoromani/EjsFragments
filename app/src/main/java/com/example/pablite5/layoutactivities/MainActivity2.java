@@ -10,7 +10,7 @@ import android.view.View;
  */
 //clase para llamar al segundo activity
 public class MainActivity2 extends AppCompatActivity {
-
+//llamos al layout del activity2 y utilizamos los metodos floatin y snackbar
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
